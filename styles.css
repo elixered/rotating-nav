@@ -27,6 +27,7 @@ body {
 
 .circle-container {
   position: fixed;
+  z-index: 100;
   top: -90px;
   left: -90px;
 }
@@ -38,6 +39,10 @@ body {
   border-radius: 50%;
   position: relative;
   transition: all 0.5s linear;
+}
+
+.container.show-nav .circle {
+  transform: rotate(-70deg);
 }
 
 .circle button {
