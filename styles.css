@@ -27,7 +27,6 @@ body {
 
 .circle-container {
   position: fixed;
-  z-index: 100;
   top: -90px;
   left: -90px;
 }
